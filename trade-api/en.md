@@ -62,8 +62,7 @@ The request body is passed as a json string.<br>
 ```php
 $msec = round(microtime(true) * 1000);
 
-$method = 'account';
-
+$method = 'acc
 $req = json_encode(array(
     'ts' => $msec,
 ));
